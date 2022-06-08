@@ -1,0 +1,100 @@
+body{
+	background-color: #dcdcff;
+/*	background-color: #151515;*/
+	color: #fff;
+	font-family: arial;
+}
+
+*, *:before, *:after{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 100%;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+/*CALENDAR*/
+#calendarBlock{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#calendarBlock button{
+	height: 50px;
+	width: 50px;
+	font-size: 1.5em;
+	background-color: #e6e6e6;
+	border-radius: 50%;
+	border: none;
+	margin: 20px;
+}
+
+#beforeB:active,
+#afterB:active{
+	background-color: #08ffc8;
+}
+
+#calendar{
+	border: 5px solid #dadada;
+	padding: 1em 1.5em;
+	height: 925px;
+	background-color: #fff7f7;
+	color: #000;
+	font-size: 3em;
+	text-align: center;
+	border-radius: 50px;
+}
+
+#calendar h1 {
+	margin-bottom: 10px;
+}
+
+#calendar h1:hover{
+	text-decoration: underline;
+}
+
+#calendar h1,
+#calendarBlock button{
+	cursor: pointer;
+}
+
+#calendar table{
+	border-collapse: collapse;
+}
+
+#calendar td, th{
+	border: 1px solid black;
+	padding: .5em;
+	text-align: center;
+}
+
+#calendar th{
+	font-weight: bold;
+	background-color: #08ffc8;
+}
+
+
+#calendar td:hover{
+	background-color: #dadada;
+	color: #000;
+}
+
+#calendar td.redTitle:hover{
+	background-color: #F71E35;
+	color: #fff7f7;
+}
+
+.redTitle{
+	color: #F71E35;
+}
+
+#calendar .today{
+	background-color: #204969;
+	color: #fff7f7;
+}
