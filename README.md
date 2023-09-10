@@ -1,2 +1,2 @@
 # calendar
-Web Calendar (HTML/CSS + JawaScript)
+Web Calendar (HTML/CSS + JavaScript)
